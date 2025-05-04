@@ -5,7 +5,7 @@ console.log('worked');
 
 console.log(sum([1, 2]));
 
-class ErrorRepository {
+export class ErrorRepository {
     constructor() {
         this.errors = new Map([
             [400, 'Bad Request'],
